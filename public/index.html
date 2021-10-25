@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/common.min.css">
+    <link rel="stylesheet" href="./src/css/home.min.css">
+
+</head>
+
+<body>
+
+
+    <!-- logo -->
+    <div class="container">
+        <div id="logo">
+            <div class="logo">
+                <a href="./index.html"></a>
+            </div>
+            <div class="seach">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="请输入关键字" disabled="disabled">
+                    <button type="button" class="btn btn-primary" >搜索</button>
+                </form>
+            </div>
+            <div class="login">
+                <ul>
+                    <li class="login1"><a href="./login.html">登录</a></li>
+                    <li class="uname"></li>
+                    <li class="reg1"><a href="./reg.html">注册</a></li>
+                    <li class="exit" >
+                        <button type="button" class="btn btn-info exitBtn">退出</button>
+                    </li>
+                    <li><a href="./cat.html">购物车</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 导航 -->
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li ><a href="./index.html?type=0">首页</a></li>
+                <li ><a href="./prefecture.html?type=1&paege=1">爱情鲜花</a></li>
+                <li ><a href="./prefecture.html?type=2&paege=1">永生花</a></li>
+                <li ><a href="./prefecture.html?type=3&paege=1">送长辈鲜花</a></li>
+                <li ><a href="./prefecture.html?type=4&paege=1">礼品</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 轮播图 -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./src/img/banner0.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/banner1.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <!-- 商品分类 -->
+    <!-- 爱情鲜花 -->
+    <div class="fl f-lover">
+        <div class="fl-container">
+            <div class="hd">
+                <a class="more" href="./prefecture.html?type=1&paege=1">更多爱情鲜花<span class="icon"></span></a>
+                <h3><a href="./prefecture.html?type=1&paege=1">爱情鲜花</a><span>送 · 让你怦然心动的人</span></h3>
+            </div>
+            <div class="bd">
+                <div class="bd-l">
+                    <div class="banner-box">
+                        <img src="./src/img/love.png" width="288" height="656">
+                        <div class="link-cover">
+                            <a href="./prefecture.html?type=1&paege=1">爱情鲜花专区
+                                <span class="icon icon-dotarrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fl-products">
+                    <!-- 商品列表 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 永生花 -->
+    <div class="fl f-immortal">
+        <div class="fl-container">
+            <div class="hd">
+                <a class="more" href="./prefecture.html?type=2&paege=1"">更多永生花<span class="icon"></span></a>
+                <h3><a href="./prefecture.html?type=2&paege=1">永生花</a><span>许 · 她一生承诺</span></h3>
+            </div>
+            <div class="bd">
+                <div class="bd-l">
+                    <div class="banner-box">
+                        <img src="./src/img/yongsheng.jpg" width="288" height="656">
+                        <div class="link-cover">
+                            <a href="./prefecture.html?type=2&paege=1">永生花专区
+                                <span class="icon icon-dotarrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fl-products">
+                    <!-- 商品列表 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 送长辈鲜花 -->
+    <div class="fl f-elder">
+        <div class="fl-container">
+            <div class="hd">
+                <a class="more" href="./prefecture.html?type=3&paege=1">更多送长辈鲜花<span class="icon"></span></a>
+                <h3><a href="./prefecture.html?type=3&paege=1">送长辈鲜花</a><span>赠 · 父母/恩师/长辈</span></h3>
+            </div>
+            <div class="bd">
+                <div class="bd-l">
+                    <div class="banner-box">
+                        <img src="./src/img/zhangbei.png" width="288" height="656">
+                        <div class="link-cover">
+                            <a href="./prefecture.html?type=3&paege=1">送长辈鲜花专区
+                                <span class="icon icon-dotarrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fl-products">
+                    <!-- 商品列表 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 礼品 -->
+    <div class="fl f-gifts">
+        <div class="fl-container">
+            <div class="hd">
+                <a class="more" href="./prefecture.html?type=4&paege=1">更多礼品<span class="icon icon-arrow-right"></span></a>
+                <h3><a href="./prefecture.html?type=4&paege=1">礼品</a><span>给她·最美好的礼物</span></h3>
+            </div>
+            <div class="bd">
+                <div class="fl-products fl-products-row">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 友情链接 -->
+    <div class="container mt-3">
+        <div class="ft-nav">
+            <a href="/">首页</a>
+            <b>|</b>
+            <a href="#" target="_blank">关于我们</a>
+            <b>|</b>
+            <a href="#" target="_blank">媒体报道</a>
+            <b>|</b>
+            <a href="#" target="_blank">联系方式</a>
+            <b>|</b>
+            <a href="#" target="_blank">企业团购</a>
+            <b>|</b>
+            <a href="#" target="_blank">花店入驻</a>
+            <b>|</b>
+            <a href="#" target="_blank">友情链接</a>
+            <b>|</b>
+            <a href="#" target="_blank">在线补款</a>
+            <b>|</b>
+            <a href="#" target="_blank">为什么选择花礼网</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="auth">
+            <img src="./src/img/cxwz.gif" alt="">
+            <img src="./src/img/smyz.gif" alt="">
+            <img src="./src/img/slogan.png" alt="">
+            <img src="./src/img/zfb.gif" alt="">
+            <img src="./src/img/100.jpg" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <p>中国花卉协会会员 中国电子商务协会会员 ICP经营许可证：粤B2-20050744 | 粤ICP备09171662号 Copyright © 2005-2019</p>
+            <p>鲜花礼品网 www.hua.com 中国领先的鲜花网品牌，鲜花速递专家！</p>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="./src/lib/jquery-3.1.1.js"></script>
+<script src="./src/lib/bootstrap.js"></script>
+<script src="./src/js/home.js"></script>
+<script src="./src/js/common.js"></script>
+
+</html>

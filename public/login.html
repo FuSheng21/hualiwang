@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/rl_common.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>用户登录</h1>
+        <div class="form">
+            <div class="form-item mt-3">
+                <label for="username" class="form-label">用户名</label>
+                <input type="text" id="username" class="form-control">
+            </div>
+            <div class="form-item mt-3">
+                <label for="password" class="form-label">密码</label>
+                <input type="password" id="password" class="form-control">
+                <div class="invalid-feedback">
+                    用户名或密码错误
+                </div>
+            </div>
+            <div class="mt-3" >
+                <button type="button" class="btn btn-default">登录</button><span>还没有账号？<a href="./reg.html">立即注册</a>!</span>
+              </div>
+        </div>
+    </div>
+    </div>
+    <script src="./src/lib/jquery-3.1.1.js"></script>
+    <script src="./src/js/login.js"></script>
+</body>
+
+</html>
